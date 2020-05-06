@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact-us.html">contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- from-section -->
+    <section class="from-section py-4" style="background-color: #d2d0d038;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-10 text-center mb-5">
+            <img src="images/logo.png" class="img-fluid w-25 py-3" alt="logo" />
+            <h1>Checkout form</h1>
+            <p class="text-capitalize">
+              Below is an example form built entirely with Bootstrap’s form
+              controls. Each required form group has a validation state that can
+              be triggered by attempting to submit the form without completing
+              it.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-9">
+            <h2 class="mb-3">Billing address</h2>
+            <form>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationDefault01">First name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationDefault01"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="validationDefault02">Last name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationDefault02"
+                    required
+                  />
+                </div>
+                <div class="col-md-12 mb-3">
+                  <label for="validationDefaultUsername">Username</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend2"
+                        >@</span
+                      >
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="validationDefaultUsername"
+                      aria-describedby="inputGroupPrepend2"
+                      placeholder="username"
+                      required
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="inputEmail4"
+                    >Email <strong class="text-muted">(Optional)</strong>
+                  </label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="inputEmail4"
+                    placeholder="you@example.com"
+                  />
+                </div>
+                <div class="form-group col-md-12">
+                  <label for="inputPassword4">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="inputPassword4"
+                    placeholder="min 8 character"
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="validationDefault03">Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationDefault03"
+                    required
+                  />
+                </div>
+                <div class="col-md-5 mb-3">
+                  <label for="validationDefault04">Country</label>
+                  <select
+                    class="custom-select"
+                    id="validationDefault04"
+                    required
+                  >
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationDefault04">State</label>
+                  <select
+                    class="custom-select"
+                    id="validationDefault04"
+                    required
+                  >
+                    <option selected disabled value="">Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationDefault05">Zip</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="validationDefault05"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-12 mb-3 justify-content-left">
+                  <div class="custom-control custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="custom-control-input"
+                      id="customCheck1"
+                    />
+                    <label class="custom-control-label" for="customCheck1"
+                      >Shipping address is the same as my billing address</label
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="form-group mt-4">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="invalidCheck2"
+                    required
+                  />
+                  <label class="form-check-label" for="invalidCheck2">
+                    Agree to terms and conditions
+                  </label>
+                </div>
+              </div>
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+          </div>
+
+          <div class="col-xl-3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. In sint
+            molestiae, minus excepturi sapiente, nam minima nobis recusandae
+            culpa magni ratione. Mollitia magnam beatae maiores sunt quia in!
+            Cupiditate, at!
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
